@@ -5,6 +5,7 @@
     <Application/>
     <About/>
     <FooterTMP/>
+    <Carousel/>
   </div>
 </template>
 
@@ -33,5 +34,7 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-
+html,body{
+  overflow-x: hidden;
+}
 </style>
